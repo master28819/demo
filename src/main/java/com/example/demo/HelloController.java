@@ -12,7 +12,7 @@ public class HelloController {
     }
 
 	@GetMapping("/")
-    public String sayHello() {
+    public String sayRoute() {
         return "Tera bhai Krish Shah ";
     }
 
