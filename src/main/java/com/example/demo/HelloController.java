@@ -14,7 +14,8 @@ public class HelloController {
         return "hello"; // refers to hello.html in templates folder
     }
 
-	@GetMapping("/"){
+	@GetMapping("/")
+	public String route(){
 		return "Route H Yaar";
 	}
 
